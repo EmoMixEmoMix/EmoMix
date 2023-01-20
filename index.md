@@ -28,6 +28,8 @@ Recent expressive text to speech (TTS) models focus on synthesizing emotional sp
 <!-- </table>
 <p align="center">Figure.1 (A) The architecture of the functional digestive metabolic network (DMN). (B) The architecture of the functional digestive metabolic network (FDMN).</p> -->
 
+![]("/assets/image/fig1.jpg") *image_caption*
+
 ## Experiment
 ### Dataset
 We select the ESD dataset~\cite{zhou2021seen} to perform the model training. We use English part of the ESD database spoken by 10 native English (5 male and 5 female) in five emotions: Neutral, Angry, Happy, Sad, and Surprise. Importantly, we add "statement" and "question" labels with the help of K-means method similar to Into-TTS~\cite{lee2022into}. After adding ”statement” and ”question” labels there are 1440 statements and 310 questions (160 normal questions and 150 declarative questions) for each speaker on average. Besides, declarative questions are mainly distributed in the emotion of surprise. We follow the data partition given in ESD dataset: training set (1500 utterances), reference set (150 utterances), and test set (100 utterances).
