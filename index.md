@@ -28,7 +28,7 @@ Recent expressive text to speech (TTS) models focus on synthesizing emotional sp
 <!-- </table>
 <p align="center">Figure.1 (A) The architecture of the functional digestive metabolic network (DMN). (B) The architecture of the functional digestive metabolic network (FDMN).</p> -->
 
-![]("/assets/image/fig1.jpg") *image_caption*
+![]({{ site.url }}/assets/image/fig1.jpg) *image_caption*
 
 ## Experiment
 ### Dataset
