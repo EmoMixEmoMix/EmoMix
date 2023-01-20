@@ -84,38 +84,38 @@ In parallel style transfer, the synthesizer is given an audio clip matching the 
     <tr>
         <th> text1 </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0012_000720.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0012_000720_G.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0012_000720_MG.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0012_000720-Happy_G.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0012_000720-Happy_MG.wav" type="audio/mpeg"></audio> </th>
     </tr>
     <tr>
         <th> text1 </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0013_000367.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0013_000367_G.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0013_000367_MG.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0013_000367-Angry_G.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0013_000367-Angry_MG.wav" type="audio/mpeg"></audio> </th>
     </tr>
     <tr>
         <th> text1 </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0013_001056.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0013_001056_G.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0013_001056_MG.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0013_001056-Sad_G.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0013_001056-Sad_MG.wav" type="audio/mpeg"></audio> </th>
     </tr>
     <tr>
         <th> text1 </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0016_001404.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0016_001404_G.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0016_001404_MG.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0016_001404-Surprise_G.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0016_001404-Surprise_MG.wav" type="audio/mpeg"></audio> </th>
     </tr>
     <tr>
         <th> text1 </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0016_001405.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0016_001405_G.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0016_001405_MG.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0016_001405-Surprise_G.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0016_001405-Surprise_MG.wav" type="audio/mpeg"></audio> </th>
     </tr>
     <tr>
         <th> text1 </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0019_001413.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0019_001413_G.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0019_001413_MG.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0019_001413-Surprise_G.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0019_001413-Surprise_MG.wav" type="audio/mpeg"></audio> </th>
     </tr>
 </table>
 
