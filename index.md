@@ -74,8 +74,8 @@ table {
 In parallel style transfer, the synthesizer is given an audio clip matching the text it’s asked to synthesize (i.e. the reference and target text are the same).
 
 <table>
-	<CAPTION>Reference/Target Text: The rainbow is a division of white light into many beautiful colors.</CAPTION>
     <tr>
+	<th> Reference/Target Text</th>
 	<th> Ground Truth</th>
         <th> Fastspeech + GST </th>
         <th> proposed </th>
@@ -83,9 +83,39 @@ In parallel style transfer, the synthesizer is given an audio clip matching the 
 	
     <tr>
         <th> text1 </th>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Ground_Truth/30/0.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Tacotron2/30/0.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Tacotron2_x-vec/30/0.mp3" type="audio/mpeg"></audio> </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0012_000720.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0012_000720_G.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0012_000720_MG.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+    <tr>
+        <th> text1 </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0013_000367.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0013_000367_G.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0013_000367_MG.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+    <tr>
+        <th> text1 </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0013_001056.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0013_001056_G.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0013_001056_MG.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+    <tr>
+        <th> text1 </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0016_001404.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0016_001404_G.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0016_001404_MG.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+    <tr>
+        <th> text1 </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0016_001405.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0016_001405_G.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0016_001405_MG.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+    <tr>
+        <th> text1 </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0019_001413.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0019_001413_G.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/parallel/0019_001413_MG.wav" type="audio/mpeg"></audio> </th>
     </tr>
 </table>
 
@@ -105,7 +135,7 @@ In non-parallel style transfer, the TTS system must transfer prosodic style when
     </tr>
 </table>	
 
-### Intonation Intensity Control
+### Questioning Intonation Intensity Control
 
 <table>
 	<CAPTION>Table.4 The Intonation Intensity Evaluation</CAPTION>
