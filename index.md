@@ -9,7 +9,24 @@ Recent expressive text to speech (TTS) models focus on synthesizing emotional sp
 
 ## Model Architecture
 
-![Octocat]("/assets/image/baseline (3).png")
+<!-- <center class="half">
+    <img src="assets/image/fig1.jpg" width="300"/>
+</center>       <p>&nbsp;</p> 
+<p align="center">Figure.1 The architecture of the functional digestive metabolic network,</p> -->
+
+<!-- <table>
+    <tr>
+        <td ><center><img src="assets/image/fig1.jpg"/> </center></td>
+        <td ><center><img src="assets/image/fig2.jpg"/> </center></td>
+    </tr>
+	<tr>
+		<th> (A) DMN </th>
+		<th> (B) FDMN </th>
+    </tr> -->
+
+	
+<!-- </table>
+<p align="center">Figure.1 (A) The architecture of the functional digestive metabolic network (DMN). (B) The architecture of the functional digestive metabolic network (FDMN).</p> -->
 
 ## Experiment
 ### Dataset
