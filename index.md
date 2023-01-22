@@ -105,7 +105,7 @@ In parallel style transfer, the synthesizer is given an audio clip matching the 
 
 
 ### Non-Parallel Transfer
-In non-parallel style transfer, the TTS system must transfer prosodic style when the source and target text are completely different. Below, contrast the monotonous prosody of the baseline with examples of long-form synthesis with a narrative source style.	
+In non-parallel style transfer, the TTS system must transfer prosodic style when the source and target text are completely different.
 
 <table>
     <tr>
@@ -114,7 +114,7 @@ In non-parallel style transfer, the TTS system must transfer prosodic style when
     </tr>
     <tr>
        	<th> abc </th>
-       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Ground_Truth/30/0.mp3" type="audio/mpeg"></audio> </th>
+       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/female/16-1405/0018_001200-Sad.wav" type="audio/mpeg"></audio> </th>
     </tr>
 	
     <tr>
@@ -122,10 +122,58 @@ In non-parallel style transfer, the TTS system must transfer prosodic style when
 	<th> proposed</th>
     </tr>
     <tr>
-	<th> abc </th>
-       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Ground_Truth/30/0.mp3" type="audio/mpeg"></audio> </th>
+	<th> We have been fine, haven't we? </th>
+       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/female/13-1406/0018_001234-Sad.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+    <tr>
+	<th> Do you know the lid opens? </th>
+       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/female/13-1406/0018_001274-Sad.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+    <tr>
+	<th> Our King George is labourers? </th>
+       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/female/13-1406/0020_000120-Neutral.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+    <tr>
+	<th> Can your name be more hilarious? </th>
+       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/female/13-1406/0020_000276-Neutral.wav" type="audio/mpeg"></audio> </th>
     </tr>
 </table>	
+
+
+
+<table>
+    <tr>
+	<th> Reference Text:</th>
+	<th> Reference Audio</th>
+    </tr>
+    <tr>
+       	<th> abc </th>
+       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/female/16-1405/0018_001200-Sad.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+	
+    <tr>
+	<th> Target Text</th>
+	<th> proposed</th>
+    </tr>
+    <tr>
+	<th> We have been fine, haven't we? </th>
+       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/male/13-1406/0018_001234-Sad.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+    <tr>
+	<th> Do you know the lid opens? </th>
+       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/male/13-1406/0018_001274-Sad.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+    <tr>
+	<th> Our King George is labourers? </th>
+       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/male/13-1406/0020_000120-Neutral.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+    <tr>
+	<th> Can your name be more hilarious? </th>
+       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/male/13-1406/0020_000276-Neutral.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+</table>
+
+
 
 ### Questioning Intonation Intensity Control
 
