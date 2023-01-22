@@ -113,8 +113,8 @@ In non-parallel style transfer, the TTS system must transfer prosodic style when
 	<th> Reference Audio</th>
     </tr>
     <tr>
-       	<th> abc </th>
-       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/female/16-1405/0018_001200-Sad.wav" type="audio/mpeg"></audio> </th>
+       	<th> Clear than clear water? (female) </th>
+       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/female/16-1405/ref.wav" type="audio/mpeg"></audio> </th>
     </tr>
 	
     <tr>
@@ -123,19 +123,19 @@ In non-parallel style transfer, the TTS system must transfer prosodic style when
     </tr>
     <tr>
 	<th> We have been fine, haven't we? </th>
-       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/female/13-1406/0018_001234-Sad.wav" type="audio/mpeg"></audio> </th>
+       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/female/16-1405/0018_001234-Sad.wav" type="audio/mpeg"></audio> </th>
     </tr>
     <tr>
 	<th> Do you know the lid opens? </th>
-       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/female/13-1406/0018_001274-Sad.wav" type="audio/mpeg"></audio> </th>
+       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/female/16-1405/0018_001274-Sad.wav" type="audio/mpeg"></audio> </th>
     </tr>
     <tr>
 	<th> Our King George is labourers? </th>
-       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/female/13-1406/0020_000120-Neutral.wav" type="audio/mpeg"></audio> </th>
+       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/female/16-1405/0020_000120-Neutral.wav" type="audio/mpeg"></audio> </th>
     </tr>
     <tr>
 	<th> Can your name be more hilarious? </th>
-       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/female/13-1406/0020_000276-Neutral.wav" type="audio/mpeg"></audio> </th>
+       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/female/16-1405/0020_000276-Neutral.wav" type="audio/mpeg"></audio> </th>
     </tr>
 </table>	
 
@@ -147,8 +147,8 @@ In non-parallel style transfer, the TTS system must transfer prosodic style when
 	<th> Reference Audio</th>
     </tr>
     <tr>
-       	<th> abc </th>
-       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/female/16-1405/0018_001200-Sad.wav" type="audio/mpeg"></audio> </th>
+       	<th> Andy what's the gyre and to gimble? </th>
+       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/female/13-1406/ref.wav" type="audio/mpeg"></audio> </th>
     </tr>
 	
     <tr>
