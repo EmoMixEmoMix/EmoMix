@@ -64,7 +64,7 @@ In parallel style transfer, the synthesizer is given an audio clip matching the 
 
 	
 </table>
-<p align="center">Figure.1 Visualizations of generated Mel-spectrograms of "They went up to the dark mass job had pointed out?".</p>
+<p align="center"> Visualizations of generated Mel-spectrograms of "They went up to the dark mass job had pointed out?" during parallel style transfer.</p>
 
 <table>
     <tr>
