@@ -9,11 +9,13 @@ Recent expressive text to speech (TTS) models focus on synthesizing emotional sp
 
 ## Model Architecture
 
-![]({{ site.url }}/assets/image/baseline (3).png) 
+![The overview architecture for QI-TTS. The red part of reference audio refers to final syllable. ”GRL” denotes gradient
+reversal layer. Rs and Rf denote the reference embedding of the reference sentence and that of the final syllable, respectively.
+Gs and Gf denote emotion and intonation embedding. hi represents intonation intensity embedding.]({{ site.url }}/assets/image/baseline (3).png) 
 
 ## Experiment
 ### Dataset
-We select the ESD dataset~\cite{zhou2021seen} to perform the model training. We use English part of the ESD database spoken by 10 native English (5 male and 5 female) in five emotions: Neutral, Angry, Happy, Sad, and Surprise. Importantly, we add "statement" and "question" labels with the help of K-means method similar to Into-TTS~\cite{lee2022into}. After adding ”statement” and ”question” labels there are 1440 statements and 310 questions (160 normal questions and 150 declarative questions) for each speaker on average. Besides, declarative questions are mainly distributed in the emotion of surprise. We follow the data partition given in ESD dataset: training set (1500 utterances), reference set (150 utterances), and test set (100 utterances).
+We select the ESD dataset to perform the model training. We use English part of the ESD database spoken by 10 native English (5 male and 5 female) in five emotions: Neutral, Angry, Happy, Sad, and Surprise. Importantly, we add "statement" and "question" labels with the help of K-means method similar to Into-TTS. After adding ”statement” and ”question” labels there are 1440 statements and 310 questions (160 normal questions and 150 declarative questions) for each speaker on average. Besides, declarative questions are mainly distributed in the emotion of surprise. We follow the data partition given in ESD dataset: training set (1500 utterances), reference set (150 utterances), and test set (100 utterances).
 
 
 <p>&nbsp;</p> 
@@ -178,7 +180,6 @@ In non-parallel style transfer, the TTS system must transfer prosodic style when
 ### Questioning Intonation Intensity Control
 
 <table>
-	<CAPTION>Table.4 The Intonation Intensity Evaluation</CAPTION>
     <tr> 
         <th> Text </th>
 	<th style="5px;word-wrap;word-break"> Intensity = 0.3 (Most Weak)</th>
