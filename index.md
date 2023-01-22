@@ -9,25 +9,6 @@ Recent expressive text to speech (TTS) models focus on synthesizing emotional sp
 
 ## Model Architecture
 
-<!-- <center class="half">
-    <img src="assets/image/fig1.jpg" width="300"/>
-</center>       <p>&nbsp;</p> 
-<p align="center">Figure.1 The architecture of the functional digestive metabolic network,</p> -->
-
-<!-- <table>
-    <tr>
-        <td ><center><img src="assets/image/fig1.jpg"/> </center></td>
-        <td ><center><img src="assets/image/fig2.jpg"/> </center></td>
-    </tr>
-	<tr>
-		<th> (A) DMN </th>
-		<th> (B) FDMN </th>
-    </tr> -->
-
-	
-<!-- </table>
-<p align="center">Figure.1 (A) The architecture of the functional digestive metabolic network (DMN). (B) The architecture of the functional digestive metabolic network (FDMN).</p> -->
-
 ![]({{ site.url }}/assets/image/baseline (3).png) 
 
 ## Experiment
@@ -63,7 +44,6 @@ table {
 In parallel style transfer, the synthesizer is given an audio clip matching the text it’s asked to synthesize (i.e. the reference and target text are the same). QI-TTS can successfully transfer correct intonation in reference audio while the vanilla GST sometimes failed even with question mark.
 
 <table>
-
     <tr>
 	<th> Reference/Target Text</th>
 	<th> Emotion </th>   
@@ -120,18 +100,7 @@ In parallel style transfer, the synthesizer is given an audio clip matching the 
 
 
 ### Non-Parallel Transfer
-In non-parallel style transfer, the TTS system must transfer prosodic style when the source and target text are completely different. Below, contrast the monotonous prosody of the baseline with examples of long-form synthesis with a narrative source style.
-<table>
-	<CAPTION>Reference Text: When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow.</CAPTION>
-    <tr>
-	<th> Reference Audio</th>
-	<th> Target Text</th>
-	<th> proposed</th>
-    </tr>
-    <tr>
-       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Ground_Truth/30/0.mp3" type="audio/mpeg"></audio> </th>
-    </tr>
-</table>	
+In non-parallel style transfer, the TTS system must transfer prosodic style when the source and target text are completely different. Below, contrast the monotonous prosody of the baseline with examples of long-form synthesis with a narrative source style.	
 
 <table>
     <tr>
