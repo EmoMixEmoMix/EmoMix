@@ -1,6 +1,6 @@
-<p align="justify">
+<!-- <p align="justify">
 In this post, we show the demo of QI-TTS: Questioning Intonation Control for Emotional Speech Synthesis
-</p>
+</p> -->
 
 ## Abstract
 <p align="justify">
@@ -68,7 +68,7 @@ In parallel style transfer, the synthesizer is given an audio clip matching the 
 
 <table>
     <tr>
-	<th> Reference/Target Text</th>
+	<th> Target Text</th>
 	<th> Emotion </th>   
 	<th> Ground Truth</th>
         <th> Fastspeech2 + GST </th>
