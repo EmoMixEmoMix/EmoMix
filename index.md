@@ -9,9 +9,8 @@ Recent expressive text to speech (TTS) models focus on synthesizing emotional sp
 
 ## Model Architecture
 
-![The overview architecture for QI-TTS. The red part of reference audio refers to final syllable. ”GRL” denotes gradient
-reversal layer. Rs and Rf denote the reference embedding of the reference sentence and that of the final syllable, respectively.
-Gs and Gf denote emotion and intonation embedding. hi represents intonation intensity embedding.]({{ site.url }}/assets/image/baseline (3).png) 
+![]({{ site.url }}/assets/image/baseline (3).png) 
+The overview architecture for QI-TTS. The red part of reference audio refers to final syllable. ”GRL” denotes gradient reversal layer. Rs and Rf denote the reference embedding of the reference sentence and that of the final syllable, respectively. Gs and Gf denote emotion and intonation embedding. hi represents intonation intensity embedding.
 
 ## Experiment
 ### Dataset
@@ -45,12 +44,34 @@ table {
 ### Parallel Style Transfer
 In parallel style transfer, the synthesizer is given an audio clip matching the text it’s asked to synthesize (i.e. the reference and target text are the same). QI-TTS can successfully transfer correct intonation in reference audio while the vanilla GST sometimes failed even with question mark.
 
+<!-- <center class="half">
+    <img src="assets/image/fig1.jpg" width="300"/>
+    <img src="assets/image/fig2.jpg" width="300"/>
+</center>       <p>&nbsp;</p> 
+<p align="center">Figure.1 The architecture of the functional digestive metabolic network,</p> -->
+
+<table>
+    <tr>
+        <td ><center><img src="assets/Demo/fig_compar/GT0016_001404-Surprise.wav.png"/> </center></td>
+        <td ><center><img src="assets/Demo/fig_compar/384gGT0016_001404-Surprise.wav.png"/> </center></td>
+        <td ><center><img src="assets/Demo/fig_compar/256mgGT0016_001404-Surprise.wav.png"/> </center></td>
+    </tr>
+    <tr>
+		<th> (A) Ground Truth </th>
+		<th> (A) Fastspeech2 + GST </th>
+		<th> (C) QI-TTS </th>
+    </tr>
+
+	
+</table>
+<p align="center">Figure.1 Visualizations of generated Mel-spectrograms of "They went up to the dark mass job had pointed out?".</p>
+
 <table>
     <tr>
 	<th> Reference/Target Text</th>
 	<th> Emotion </th>   
 	<th> Ground Truth</th>
-        <th> Fastspeech + GST </th>
+        <th> Fastspeech2 + GST </th>
         <th> proposed </th>
     </tr>
 
