@@ -147,8 +147,8 @@ In non-parallel style transfer, the TTS system must transfer prosodic style when
 	<th> Reference Audio</th>
     </tr>
     <tr>
-       	<th> Andy what's the gyre and to gimble? </th>
-       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/female/13-1406/ref.wav" type="audio/mpeg"></audio> </th>
+       	<th> Andy what's the gyre and to gimble? (male) </th>
+       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/male/13-1406/ref.wav" type="audio/mpeg"></audio> </th>
     </tr>
 	
     <tr>
