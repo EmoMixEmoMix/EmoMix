@@ -53,12 +53,12 @@ In parallel style transfer, the synthesizer is given an audio clip matching the 
 <table>
     <tr>
         <td ><center><img src="assets/Demo/fig_compar/GT0016_001404-Surprise.wav.png"/> </center></td>
-        <td ><center><img src="assets/Demo/fig_compar/384gGT0016_001404-Surprise.wav.png"/> </center></td>
-        <td ><center><img src="assets/Demo/fig_compar/256mgGT0016_001404-Surprise.wav.png"/> </center></td>
+        <td ><center><img src="assets/Demo/fig_compar/384g0016_001404-Surprise.wav.png"/> </center></td>
+        <td ><center><img src="assets/Demo/fig_compar/256mg0016_001404-Surprise.wav.png"/> </center></td>
     </tr>
     <tr>
 		<th> (A) Ground Truth </th>
-		<th> (A) Fastspeech2 + GST </th>
+		<th> (B) Fastspeech2 + GST (w/o final syllable level) </th>
 		<th> (C) QI-TTS </th>
     </tr>
 
