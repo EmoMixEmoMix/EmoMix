@@ -84,7 +84,6 @@ table {
 We apply Neutral and primary mixture to control primary emotion intensity.
 <table>
     <tr> 
-        <th> Text </th>
 	<th> Emotion </th>
 	<th style="5px;word-wrap;word-break"> Weak</th>
         <th style="5px;word-wrap;word-break"> Medium </th>
@@ -92,7 +91,6 @@ We apply Neutral and primary mixture to control primary emotion intensity.
     </tr>
 
 	<tr>
-        <th> And vowed he'd change the pigtail's place </th>
 	<th> Neutral-Surprise </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/primary_intensity/sur-1.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/primary_intensity/sur-2.wav" type="audio/mpeg"></audio> </th>
@@ -100,7 +98,6 @@ We apply Neutral and primary mixture to control primary emotion intensity.
         </tr>
 	
 	<tr>
-        <th> In which fox loses a tail and its elder sister finds one </th>
 	<th> Neutral-Happy </th>	
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/primary_intensity/hap-1.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/primary_intensity/hap-2.wav" type="audio/mpeg"></audio> </th>
@@ -108,7 +105,6 @@ We apply Neutral and primary mixture to control primary emotion intensity.
         </tr>
 
    	<tr>
-        <th> Andy what's the gyre and to gimble? </th>
 	<th> Neutral-Sad </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/primary_intensity/sad-1.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/primary_intensity/sad-2.wav" type="audio/mpeg"></audio> </th>
@@ -116,7 +112,6 @@ We apply Neutral and primary mixture to control primary emotion intensity.
         </tr>
 	
 	<tr>
-        <th> At the end of four? </th>
 	<th> Neutral-Angry </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/primary_intensity/ang-1.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/primary_intensity/ang-2.wav" type="audio/mpeg"></audio> </th>
@@ -127,11 +122,10 @@ We apply Neutral and primary mixture to control primary emotion intensity.
 
 
 ### Mixed Emotion Synthesis
-Excitement = Happy + Surprise, Disappointment = Sad + Surprise
+Excitement = Happy + Surprise, Disappointment = Sad + Surprise, Outrage = Angry + Surprise
 
 <table>
     <tr> 
-        <th> Text </th>
 	<th> Emotion </th>
 	<th style="5px;word-wrap;word-break"> Weak</th>
         <th style="5px;word-wrap;word-break"> Medium </th>
@@ -139,35 +133,31 @@ Excitement = Happy + Surprise, Disappointment = Sad + Surprise
     </tr>
 
 	<tr>
-        <th> And vowed he'd change the pigtail's place </th>
 	<th> Excitement </th>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000048][0013_001578][G].wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0019_001410-Surprise-MG.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000048][0013_001578][P].wav" type="audio/mpeg"></audio> </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/hap-sup1" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/hap-sup1" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/hap-sup1" type="audio/mpeg"></audio> </th>
         </tr>
 	
 	<tr>
-        <th> In which fox loses a tail and its elder sister finds one </th>
 	<th> Excitement </th>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0019_001409-Surprise-MG.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0019_001409-Surprise-MG1.5.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0019_001409-Surprise-MG2.wav" type="audio/mpeg"></audio> </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/sad-sup1" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/sad-sup1" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/sad-sup1" type="audio/mpeg"></audio> </th>
         </tr>
 
    	<tr>
-        <th> Andy what's the gyre and to gimble? </th>
 	<th> Disappointment </th>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0011_001406-Surprise-G.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0011_001406-Surprise-MG1.5.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0011_001406-Surprise-MG2.wav" type="audio/mpeg"></audio> </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/sad-sup1" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/sad-sup2" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/sad-sup3" type="audio/mpeg"></audio> </th>
         </tr>
 	
 	<tr>
-        <th> At the end of four? </th>
 	<th> Disappointment </th>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0017_001419-Surprise-MG1.5.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0017_001419-Surprise-MG.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0017_001419-Surprise-MG2.wav" type="audio/mpeg"></audio> </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/sad-sup11" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/sad-sup22" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/sad-sup33" type="audio/mpeg"></audio> </th>
         </tr>
 </table>
 
