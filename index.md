@@ -99,9 +99,9 @@ We apply Neutral and primary mixture to control primary emotion intensity.
 	
 	<tr>
 	<th> Neutral-Happy </th>	
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/primary_intensity/hap-1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/primary_intensity/hap-2.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/primary_intensity/hap-3.wav" type="audio/mpeg"></audio> </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/primary_intensity/hap/n-h1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/primary_intensity/hap/n-h2" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/primary_intensity/hap/n-h3" type="audio/mpeg"></audio> </th>
         </tr>
 
    	<tr>
@@ -122,31 +122,17 @@ We apply Neutral and primary mixture to control primary emotion intensity.
 
 
 ### Mixed Emotion Synthesis
-Excitement = Happy + Surprise, Disappointment = Sad + Surprise, Outrage = Angry + Surprise
+ Disappointment = Sad + Surprise, Outrage = Angry + Surprise, Excitement = Happy + Surprise,
 
 <table>
     <tr> 
 	<th> Emotion </th>
-	<th style="5px;word-wrap;word-break"> Weak</th>
-        <th style="5px;word-wrap;word-break"> Medium </th>
-        <th style="5px;word-wrap;word-break"> Strong </th>
+	<th style="5px;word-wrap;word-break"> Base</th>
+        <th style="5px;word-wrap;word-break"> Mixture</th>
+        <th style="5px;word-wrap;word-break"> Mixed-in</th>
     </tr>
-
-	<tr>
-	<th> Excitement </th>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/hap-sup1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/hap-sup1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/hap-sup1.wav" type="audio/mpeg"></audio> </th>
-        </tr>
 	
 	<tr>
-	<th> Excitement </th>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/sad-sup1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/sad-sup1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/sad-sup1.wav" type="audio/mpeg"></audio> </th>
-        </tr>
-
-   	<tr>
 	<th> Disappointment </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/sad-sup1.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/sad-sup2.wav" type="audio/mpeg"></audio> </th>
@@ -159,6 +145,22 @@ Excitement = Happy + Surprise, Disappointment = Sad + Surprise, Outrage = Angry 
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/sad-sup22.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/sad-sup33.wav" type="audio/mpeg"></audio> </th>
         </tr>
+	
+	<tr>
+	<th> Outrage </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/ang-sup1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/ang-sup2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/ang-sup3.wav" type="audio/mpeg"></audio> </th>
+        </tr>
+	
+	<tr>
+	<th> Excitement </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/sad-sup1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/sad-sup1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/sad-sup1.wav" type="audio/mpeg"></audio> </th>
+        </tr>
+
+   	
 </table>
 
 
