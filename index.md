@@ -126,9 +126,10 @@ We apply Neutral and primary mixture to control primary emotion intensity.
 
 <table>
     <tr> 
+	<th style="5px;word-wrap;word-break"> Mixed Emotion</th>
 	<th style="5px;word-wrap;word-break"> Base</th>
         <th style="5px;word-wrap;word-break"> Mixed-in</th>
-	<th style="5px;word-wrap;word-break"> Mixture</th>
+	
     </tr>
      <tr> 
 	<th style="5px;word-wrap;word-break"> Outrage</th>
@@ -182,9 +183,6 @@ We apply Neutral and primary mixture to control primary emotion intensity.
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/ang-sup2.wav" type="audio/mpeg"></audio> </th>
         </tr>
 	
-
-
-   	
 </table>
 
 
