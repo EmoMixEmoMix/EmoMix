@@ -1,22 +1,18 @@
 <!-- <p align="justify">
-In this post, we show the demo of QI-TTS: Questioning Intonation Control for Emotional Speech Synthesis
+In this post, we show the demo of EmoMix: Emotion Mixing via Diffusion Models for Emotional Speech Synthesis
 </p> -->
 
 ## Abstract
 <p align="justify">
-Recent expressive text to speech (TTS) models focus on synthesizing emotional speech, but some fine-grained styles such as intonation are neglected. In this paper, we aim to better transfer and control intonation to further deliver the speaker's questioning intention while transferring emotion from reference speech. We propose a multi-style extractor to extract style embedding from two different levels. While the sentence level represents emotion, the final syllable level represents intonation. For fine-grained intonation control, we use relative attributes to represent intonation intensity at the syllable level. To reduce the overlap of information between style embedding and content embedding, an adversarial content predictor with gradient reversal layer is adopted. Experimental results validate the effectiveness of our proposed method for improving intonation expressiveness in emotional speech synthesis.  
+There has been significant progress in emotional Text-To-Speech (TTS) synthesis technology in recent years. However, existing methods primarily focus on the synthesis of a limited number of emotion types and have achieved unsatisfactory performance in intensity control. To address these limitations, we propose EmoMix, which can generate emotional speech with specified intensity or a mixture of emotions. Specifically, EmoMix is a controllable emotional TTS model based on a diffusion probabilistic model and a pre-trained speech emotion recognition (SER) model used to extract emotion embedding. Mixed emotion synthesis is achieved by combining the noises predicted by diffusion model conditioned on different emotions during only one sampling process at the run-time. To control the intensity, we apply the Neutral and specific primary emotion noise combined in varying degrees. Experimental results validate the effectiveness of EmoMix for synthesizing mixed emotion and intensity control. 
 </p>
 
 ## Model Architecture
 
 ![]({{ site.url }}/assets/image/baseline (3).png) 
-The overview architecture for QI-TTS. The red part of reference audio refers to final syllable. ”GRL” denotes gradient reversal layer. Rs and Rf denote the reference embedding of the reference sentence and that of the final syllable, respectively. Gs and Gf denote emotion and intonation embedding. hi represents intonation intensity embedding.
+The overview architecture for EmoMix and the green part represents the extended sampling process of mixed emotion synthesis at run-time. The dotted arrows are only used during training. The SER mdoels are pre-trained and their parameters are frozen.
 
 ## Experiment
-### Dataset
-We select the ESD dataset to perform the model training. We use English part of the ESD database spoken by 10 native English (5 male and 5 female) in five emotions: Neutral, Angry, Happy, Sad, and Surprise. Importantly, we add "statement" and "question" labels with the help of K-means method similar to Into-TTS. After adding ”statement” and ”question” labels there are 1440 statements and 310 questions (160 normal questions and 150 declarative questions) for each speaker on average. Besides, declarative questions are mainly distributed in the emotion of surprise. We follow the data partition given in ESD dataset: training set (1500 utterances), reference set (150 utterances), and test set (100 utterances).
-
-
 <p>&nbsp;</p> 
 
 <script>
