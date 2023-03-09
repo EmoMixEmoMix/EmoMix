@@ -44,7 +44,6 @@ table {
 	<th> Target Text</th>
 	<th> Emotion </th>   
 	<th> Ground Truth</th>
-        <th> baseline </th>
         <th> proposed </th>
     </tr>
 
@@ -52,7 +51,6 @@ table {
         <th> And vowed he'd change the pigtail's place </th>
 	<th> Surprise </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000048][0013_001578][G].wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0019_001410-Surprise-MG.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000048][0013_001578][P].wav" type="audio/mpeg"></audio> </th>
     </tr>
 	
@@ -61,14 +59,12 @@ table {
 	<th> Sad </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000001][0012_001090][G].wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000001][0012_001090][P].wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000001][0012_001090][P].wav" type="audio/mpeg"></audio> </th>
     </tr>
 	
     <tr>
         <th> Do you know the lid opens </th>
 	<th> Happy </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000040][0013_000924][G].wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0019_001410-Surprise-MG.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000040][0013_000924][P].wav" type="audio/mpeg"></audio> </th>
     </tr>
 	
@@ -76,7 +72,6 @@ table {
         <th> They found a cow grazing in a field </th>
 	<th> Angry </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000029][0015_000444][G].wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0019_001410-Surprise-MG.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000029][0015_000444][P].wav" type="audio/mpeg"></audio> </th>
     </tr>
 </table>
@@ -98,6 +93,7 @@ We apply Neutral and primary mixture to control primary emotion intensity.
 
 	<tr>
         <th> And vowed he'd change the pigtail's place </th>
+	<th> Neutral-Surprise </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000048][0013_001578][G].wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0019_001410-Surprise-MG.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000048][0013_001578][P].wav" type="audio/mpeg"></audio> </th>
@@ -105,6 +101,7 @@ We apply Neutral and primary mixture to control primary emotion intensity.
 	
 	<tr>
         <th> In which fox loses a tail and its elder sister finds one </th>
+	<th> Neutral-Happy </th>	
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0019_001409-Surprise-MG.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0019_001409-Surprise-MG1.5.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0019_001409-Surprise-MG2.wav" type="audio/mpeg"></audio> </th>
@@ -112,6 +109,7 @@ We apply Neutral and primary mixture to control primary emotion intensity.
 
    	<tr>
         <th> Andy what's the gyre and to gimble? </th>
+	<th> Neutral-Sad </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0011_001406-Surprise-G.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0011_001406-Surprise-MG1.5.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0011_001406-Surprise-MG2.wav" type="audio/mpeg"></audio> </th>
@@ -119,86 +117,56 @@ We apply Neutral and primary mixture to control primary emotion intensity.
 	
 	<tr>
         <th> At the end of four? </th>
+	<th> Neutral-Angry </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0017_001419-Surprise-MG1.5.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0017_001419-Surprise-MG.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0017_001419-Surprise-MG2.wav" type="audio/mpeg"></audio> </th>
         </tr>
-	
 </table>
 
 
 
-
-
-
-
-
 ### Mixed Emotion Synthesis
-
 <table>
-    <tr>
-	<th> Reference Text:</th>
-	<th> Reference Audio</th>
+    <tr> 
+        <th> Text </th>
+	<th> Emotion </th>
+	<th style="5px;word-wrap;word-break"> Weak</th>
+        <th style="5px;word-wrap;word-break"> Medium </th>
+        <th style="5px;word-wrap;word-break"> Strong </th>
     </tr>
-    <tr>
-       	<th> Clear than clear water? (female) </th>
-       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/female/16-1405/ref.wav" type="audio/mpeg"></audio> </th>
-    </tr>
+
+	<tr>
+        <th> And vowed he'd change the pigtail's place </th>
+	<th> Excitement(Happy-Surprise) </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000048][0013_001578][G].wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0019_001410-Surprise-MG.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000048][0013_001578][P].wav" type="audio/mpeg"></audio> </th>
+        </tr>
 	
-    <tr>
-	<th> Target Text</th>
-	<th> proposed</th>
-    </tr>
-    <tr>
-	<th> We have been fine, haven't we? </th>
-       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/female/16-1405/0018_001234-Sad.wav" type="audio/mpeg"></audio> </th>
-    </tr>
-    <tr>
-	<th> Do you know the lid opens? </th>
-       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/female/16-1405/0018_001274-Sad.wav" type="audio/mpeg"></audio> </th>
-    </tr>
-    <tr>
-	<th> Our King George is labourers? </th>
-       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/female/16-1405/0020_000120-Neutral.wav" type="audio/mpeg"></audio> </th>
-    </tr>
-    <tr>
-	<th> Can your name be more hilarious? </th>
-       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/female/16-1405/0020_000276-Neutral.wav" type="audio/mpeg"></audio> </th>
-    </tr>
-</table>	
+	<tr>
+        <th> In which fox loses a tail and its elder sister finds one </th>
+	<th> Excitement(Happy-Surprise) </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0019_001409-Surprise-MG.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0019_001409-Surprise-MG1.5.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0019_001409-Surprise-MG2.wav" type="audio/mpeg"></audio> </th>
+        </tr>
 
-
-
-<table>
-    <tr>
-	<th> Reference Text:</th>
-	<th> Reference Audio</th>
-    </tr>
-    <tr>
-       	<th> Andy what's the gyre and to gimble? (male) </th>
-       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/male/13-1406/ref.wav" type="audio/mpeg"></audio> </th>
-    </tr>
+   	<tr>
+        <th> Andy what's the gyre and to gimble? </th>
+	<th> Disappointment(Sad-Surprise) </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0011_001406-Surprise-G.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0011_001406-Surprise-MG1.5.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0011_001406-Surprise-MG2.wav" type="audio/mpeg"></audio> </th>
+        </tr>
 	
-    <tr>
-	<th> Target Text</th>
-	<th> proposed</th>
-    </tr>
-    <tr>
-	<th> We have been fine, haven't we? </th>
-       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/male/13-1406/0018_001234-Sad.wav" type="audio/mpeg"></audio> </th>
-    </tr>
-    <tr>
-	<th> Do you know the lid opens? </th>
-       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/male/13-1406/0018_001274-Sad.wav" type="audio/mpeg"></audio> </th>
-    </tr>
-    <tr>
-	<th> Our King George is labourers? </th>
-       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/male/13-1406/0020_000120-Neutral.wav" type="audio/mpeg"></audio> </th>
-    </tr>
-    <tr>
-	<th> Can your name be more hilarious? </th>
-       	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/unpara/male/13-1406/0020_000276-Neutral.wav" type="audio/mpeg"></audio> </th>
-    </tr>
+	<tr>
+        <th> At the end of four? </th>
+	<th> Disappointment(Sad-Surprise) </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0017_001419-Surprise-MG1.5.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0017_001419-Surprise-MG.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0017_001419-Surprise-MG2.wav" type="audio/mpeg"></audio> </th>
+        </tr>
 </table>
 
 
