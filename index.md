@@ -94,9 +94,9 @@ We apply Neutral and primary mixture to control primary emotion intensity.
 	<tr>
         <th> And vowed he'd change the pigtail's place </th>
 	<th> Neutral-Surprise </th>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/primary_intensity/sur1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/primary_intensity/sur2.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/primary_intensity/sur3.wav" type="audio/mpeg"></audio> </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/primary_intensity/sur-1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/primary_intensity/sur-2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/primary_intensity/sur-3.wav" type="audio/mpeg"></audio> </th>
         </tr>
 	
 	<tr>
