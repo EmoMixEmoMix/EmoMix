@@ -1,8 +1,8 @@
-title: QI-TTS:Questioning Intonation Control for Emotional Speech Synthesis
-description: Submitted to ICASSP 2023
+title: EmoMix: Emotion Mixing via Diffusion Models for Emotional Speech Synthesis
+description: Submitted to INTERSPEECH 2023
 
 
 theme: jekyll-theme-cayman
 
 github:
-  repository_url: https://github.com/hexastrayer/
+  repository_url: https://github.com/EmoMixEmoMix/
