@@ -60,8 +60,8 @@ table {
         <th> In which fox loses a tail and its elder sister finds one </th>
 	<th> Sad </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000001][0012_001090][G].wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0019_001410-Surprise-MG.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000001][0012_001090][p].wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000001][0012_001090][P].wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000001][0012_001090][P].wav" type="audio/mpeg"></audio> </th>
     </tr>
 	
     <tr>
@@ -73,11 +73,11 @@ table {
     </tr>
 	
     <tr>
-        <th> I know how to obey orders </th>
+        <th> They found a cow grazing in a field </th>
 	<th> Angry </th>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000025][0018_000645][G].wav" type="audio/mpeg"></audio> </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000029][0015_000444][G].wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/Demo/intensity/0019_001410-Surprise-MG.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000025][0018_000645][P].wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000029][0015_000444][P].wav" type="audio/mpeg"></audio> </th>
     </tr>
 </table>
 
