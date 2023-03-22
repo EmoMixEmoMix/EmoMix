@@ -125,14 +125,14 @@ We apply Neutral and primary mixture to control primary emotion intensity.
 We use the formula "Mixed Emotion = Base + Mixed-in" in following table to represent mixed emotions for easy understanding.
 <table>
     <tr> 
-	<th style="5px;word-wrap;word-break"> Outrage = Angry + Surprise</th>
-    </tr>
-     <tr> 
 	<th style="5px;word-wrap;word-break"> Disappointment = Sad + Surprise </th>
     </tr>
      <tr> 
-	<th style="5px;word-wrap;word-break"> Excitement = Happy + Surprise</th>
-    </tr>	
+	<th style="5px;word-wrap;word-break"> Outrage = Angry + Surprise </th>
+    </tr>
+    <tr> 
+	<th style="5px;word-wrap;word-break"> Excitement = Happy + Surprise </th>
+    </tr>
 </table>
 
 <table>
@@ -142,12 +142,7 @@ We use the formula "Mixed Emotion = Base + Mixed-in" in following table to repre
         <th style="5px;word-wrap;word-break"> Mixed-in </th>
 	<th style="5px;word-wrap;word-break"> Mixed Emotion </th>
     </tr>
-	<tr>
-	<th> Excitement </th>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/hap-sup111.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/hap-sup222.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/hap-sup333.wav" type="audio/mpeg"></audio> </th>
-        </tr>
+	
 	
 	<tr>
 	<th> Disappointment </th>
@@ -168,6 +163,13 @@ We use the formula "Mixed Emotion = Base + Mixed-in" in following table to repre
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/ang-sup1.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/ang-sup3.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/ang-sup2.wav" type="audio/mpeg"></audio> </th>
+        </tr>
+	
+	<tr>
+	<th> Excitement </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/hap-sup111.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/hap-sup222.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/hap-sup333.wav" type="audio/mpeg"></audio> </th>
         </tr>
 	
 </table>
