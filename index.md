@@ -125,7 +125,10 @@ We apply Neutral and primary mixture to control primary emotion intensity.
 
 
 <table>
-     <tr> 
+    <tr> 
+	<th style="5px;word-wrap;word-break"> Mixture = Base + Mixed-in</th>
+    </tr>
+    <tr> 
 	<th style="5px;word-wrap;word-break"> Outrage = Angry + Surprise</th>
     </tr>
      <tr> 
@@ -139,9 +142,9 @@ We apply Neutral and primary mixture to control primary emotion intensity.
 <table>
     <tr> 
 	<th> Mixed Emotion </th>
-	<th style="5px;word-wrap;word-break"> Base</th>
-        <th style="5px;word-wrap;word-break"> Mixed-in</th>
-	<th style="5px;word-wrap;word-break"> Mixture</th>
+	<th style="5px;word-wrap;word-break"> Base </th>
+        <th style="5px;word-wrap;word-break"> Mixed-in </th>
+	<th style="5px;word-wrap;word-break"> Mixture </th>
     </tr>
 	<tr>
 	<th> Excitement </th>
