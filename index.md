@@ -4,7 +4,7 @@ In this post, we show the demo of EmoMix: Emotion Mixing via Diffusion Models fo
 
 ## Abstract
 <p align="justify">
-There has been significant progress in emotional Text-To-Speech (TTS) synthesis technology in recent years. However, existing methods primarily focus on the synthesis of a limited number of emotion types and have achieved unsatisfactory performance in intensity control. To address these limitations, we propose EmoMix, which can generate emotional speech with specified intensity or a mixture of emotions. Specifically, EmoMix is a controllable emotional TTS model based on a diffusion probabilistic model and a pre-trained speech emotion recognition (SER) model used to extract emotion embedding. Mixed emotion synthesis is achieved by combining the noises predicted by diffusion model conditioned on different emotions during only one sampling process at the run-time. To control the intensity, we apply the Neutral and specific primary emotion noise combined in varying degrees. Experimental results validate the effectiveness of EmoMix for synthesizing mixed emotion and intensity control. 
+There has been significant progress in emotional Text-To-Speech (TTS) synthesis technology in recent years. However, existing methods primarily focus on the synthesis of a limited number of emotion types and have achieved unsatisfactory performance in intensity control. To address these limitations, we propose EmoMix, which can generate emotional speech with specified intensity or a mixture of emotions. Specifically, EmoMix is a controllable emotional TTS model based on a diffusion probabilistic model and a pre-trained speech emotion recognition (SER) model used to extract emotion embedding. Mixed emotion synthesis is achieved by combining the noises predicted by diffusion model conditioned on different emotions during only one sampling process at the run-time. To control the intensity, we apply the Neutral and specific primary emotion noise combined in varying degrees. Experimental results validate the effectiveness of EmoMix for synthesizing mixed emotion and intensity control.
 </p>
 
 ## Model Architecture
@@ -122,7 +122,7 @@ We apply Neutral and primary mixture to control primary emotion intensity.
 
 
 ### Mixed Emotion Synthesis
-We use the formula "Mixed Emotion = Base + Mixed-in" in following table to represent mixed emotions for easy understanding.
+We use the formula "Mixed Emotion = Base + Mixed-in" in following table to represent mixed emotions for easy  understanding.
 <table>
     <tr> 
 	<th style="5px;word-wrap;word-break"> Disappointment = Sad + Surprise </th>
