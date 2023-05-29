@@ -122,7 +122,7 @@ We apply Neutral and primary mixture to control primary emotion intensity.
 
 
 ### Mixed Emotion Synthesis
-We use the formula "Mixed Emotion = Base + Mixed-in" in following table to represent mixed emotions for easy  understanding.
+We use the formula "Mixed Emotion = Base + Mixed-in" in following table to represent mixed emotions for easy understanding.
 <table>
     <tr> 
 	<th style="5px;word-wrap;word-break"> Disappointment = Sad + Surprise </th>
