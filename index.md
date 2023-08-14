@@ -85,6 +85,9 @@ We use the formula "Mixed Emotion = Base + Mixed-in" in following table to repre
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/hap-sup222.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/mix/hap-sup333.wav" type="audio/mpeg"></audio> </th>
         </tr>
+	
+</table>
+
 
 ### Primary Emotion Intensity Control
 We apply Neutral and primary mixture to control primary emotion intensity.
@@ -128,8 +131,7 @@ We apply Neutral and primary mixture to control primary emotion intensity.
 
 
 
-	
-</table>
+
 
 
 
