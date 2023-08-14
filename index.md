@@ -37,49 +37,6 @@ table {
 
 
 
-### Primary Emotion Synthesis
-
-<table>
-    <tr>
-	<th> Target Text</th>
-	<th> Emotion </th>   
-	<th> Ground Truth</th>
-        <th> proposed </th>
-    </tr>
-
-    <tr>
-        <th> And vowed he'd change the pigtail's place </th>
-	<th> Surprise </th>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000048][0013_001578][G].wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000048][0013_001578][P].wav" type="audio/mpeg"></audio> </th>
-    </tr>
-	
-    <tr>
-        <th> In which fox loses a tail and its elder sister finds one </th>
-	<th> Sad </th>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000001][0012_001090][G].wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000001][0012_001090][P].wav" type="audio/mpeg"></audio> </th>
-    </tr>
-	
-    <tr>
-        <th> Do you know the lid opens </th>
-	<th> Happy </th>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000040][0013_000924][G].wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000040][0013_000924][P].wav" type="audio/mpeg"></audio> </th>
-    </tr>
-	
-    <tr>
-        <th> They found a cow grazing in a field </th>
-	<th> Angry </th>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000029][0015_000444][G].wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="EmoMix_Audio/base_emo/[000029][0015_000444][P].wav" type="audio/mpeg"></audio> </th>
-    </tr>
-</table>
-
-
-
-
-
 ### Primary Emotion Intensity Control
 We apply Neutral and primary mixture to control primary emotion intensity.
 <table>
